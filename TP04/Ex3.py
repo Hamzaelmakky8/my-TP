@@ -6,3 +6,9 @@ for i in h :
         s=s+1
     m=m+i+str(s)
 print(m)
+
+
+if int(h)==m :
+    print(f"{h} est nombre d'Armstrong ")
+else:
+    print(f"{h} n'est pas un nombre d'Armstrong ")
